@@ -1,0 +1,8 @@
+x = str (input("Parola Giriniz :"))
+y = "0123456789"
+
+for c in x:
+  if c in y:
+    print("doğru")
+  else:
+    print("rakam giriniz")
